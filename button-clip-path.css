@@ -27,14 +27,30 @@
 }
 
 .clip-btn__label {
-    height: 10px;
     font-size: .40rem;
     position: absolute;
-    bottom: -4px;
+    bottom: -1px;
     right: 8%;
     padding: 0 5px;
     background-color: var(--yellow-color);
     z-index: 3;
+    border-left: 1px solid var(--blue-color);
+  }
+
+  .btn__label {
+    font-size: .40rem;
+    position: absolute;
+    bottom: -1px;
+    right: 8%;
+    padding: 0 5px;
+    background-color: var(--yellow-color);
+    z-index: 3;
+    border-left: 1px solid var(--blue-color);
+  }
+  
+  .btn--secondary .btn__label {
+    background-color: var(--white-color);
+    color: var(--black-color);
   }
 
   .clip-btn--secondary {
@@ -44,3 +60,5 @@
     background-color: var(--red-color);
     color: var(--white-color);
   }
+
+  
